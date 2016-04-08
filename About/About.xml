@@ -7,8 +7,8 @@
 
     <url>https://ludeon.com/forums/index.php?topic=16120.0</url>
 
-    <targetVersion>RimWorld Alpha 12d</targetVersion>
+    <targetVersion>RimWorld Alpha 13</targetVersion>
 
-    <description>Removes the (arbitrary) limit to the number of areas you can create. \n\n99.9% copy of code by RawCode\n\n!REQUIRES CCL v0.12.4 or higher!</description>
+    <description>Removes the (arbitrary) limit to the number of areas you can create. \n\n99.9% copy of code by RawCode</description>
 
 </ModMetaData>

@@ -5,16 +5,15 @@
 // Created 2015-11-25 10:55
 
 using System;
-using CommunityCoreLibrary;
 using System.Reflection;
 using RimWorld;
 using Verse;
 
 namespace AreaUnlocker
 {
-    public class Unlock : SpecialInjector
+    public class Bootstrap : ITab
     {
-        public bool NEWAREAALLOWEDOVERRIDE = true;
+        public bool NEW_AREA_ALLOWED_OVERRIDE = true;
 
         /// <summary>
         /// Edits assembly code to always return true when AreaManager.CanMakeNewAllowed() is called.
@@ -42,7 +41,7 @@ namespace AreaUnlocker
                     int ttz = 0;
 
                     //read reference of our controller variable
-                    fixed (bool* key = &NEWAREAALLOWEDOVERRIDE)
+                    fixed (bool* key = &NEW_AREA_ALLOWED_OVERRIDE)
                     {
                         //cast reference into int
                         ttz = (int)key;
@@ -74,9 +73,14 @@ namespace AreaUnlocker
             }
         }
 
-        public override void Inject()
+        public Bootstrap()
         {
-            OverrideMethod();
+            LongEventHandler.ExecuteWhenFinished( delegate { OverrideMethod(); } );
+        }
+
+        protected override void FillTab()
+        {
+            // required implementation.
         }
     }
 }
