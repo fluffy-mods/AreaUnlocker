@@ -14,7 +14,7 @@ namespace AreaUnlocker
     public class AreaUnlocker
     {
         // smallest mod ever
-        [DetourMethod(typeof(AreaManager), "ConMakeNewAllowed" )]
+        [DetourMethod(typeof(AreaManager), "CanMakeNewAllowed" )]
         public bool CanMakeNewAllowed( AreaManager _this, AllowedAreaMode mode ) { return true; }
     }
 }
