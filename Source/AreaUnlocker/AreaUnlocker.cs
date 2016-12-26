@@ -11,10 +11,10 @@ using Verse;
 
 namespace AreaUnlocker
 {
-    public class AreaUnlocker
+    public static class AreaUnlocker
     {
         // smallest mod ever
         [DetourMethod(typeof(AreaManager), "CanMakeNewAllowed" )]
-        public bool CanMakeNewAllowed( AreaManager _this, AllowedAreaMode mode ) { return true; }
+        public static bool CanMakeNewAllowed( this AreaManager _this, AllowedAreaMode mode ) { return true; }
     }
 }
