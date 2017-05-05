@@ -5,16 +5,20 @@
 // Created 2015-11-25 10:55
 
 using System;
-using HugsLib.Source.Detour;
+using Harmony;
 using RimWorld;
 using Verse;
 
 namespace AreaUnlocker
 {
+    [HarmonyPatch(typeof(AreaManager))]
+    [HarmonyPatch("CanMakeNewAllowed")]
     public static class AreaUnlocker
     {
-        // smallest mod ever
-        [DetourMethod(typeof(AreaManager), "CanMakeNewAllowed" )]
-        public static bool CanMakeNewAllowed( this AreaManager _this, AllowedAreaMode mode ) { return true; }
+        static bool Prefix( ref bool __result )
+        {
+            __result = true;
+            return false;
+        }
     }
 }
