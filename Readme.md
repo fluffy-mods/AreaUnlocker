@@ -1,9 +1,6 @@
-[![RimWorld Alpha 18](https://img.shields.io/badge/RimWorld-Alpha 18-brightgreen.svg)](http://rimworldgame.com/)
+[![RimWorld Alpha 17](https://img.shields.io/badge/RimWorld-Alpha 17-brightgreen.svg)](http://rimworldgame.com/)
 
 Removes the (arbitrary) limit to the number of areas you can create. 
-
-# Important
-**Requires HugsLib**
 
 # Notes
 While this completely removes the limit on the number of areas you can create, the UI is untouched - and optimized for 5 areas per type. If you create too many areas, you may run into UI issues. This practical limit depends largely on your resolution. I have no plans to update these UI issues, as that would be a massive undertaking.
@@ -22,4 +19,4 @@ All original content (e.g. text, imagery, sounds) in this mod is licensed under 
 Parts of the code in this mod, and some content may be licensed by their original authors. If this is the case, the original author & license will either be given in the source code, or be in a LICENSE file next to the content. Please do not decompile my mods, but use the original source code available on [GitHub](https://github.com/FluffierThanThou/RW_AreaUnlocker/), so license information in the source code is preserved.
 
 # Version
-This is version v0.18.0.0
+This is version v0.17.0.0
