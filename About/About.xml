@@ -3,7 +3,7 @@
   <name>Area Unlocker</name>
   <author>Fluffy</author>
   <url>https://ludeon.com/forums/index.php?topic=16120.0</url>
-  <targetVersion>0.17.1546</targetVersion>
+  <targetVersion>0.18.1700</targetVersion>
   <description>Removes the (arbitrary) limit to the number of areas you can create. 
 
 &lt;size=24&gt;Notes&lt;/size&gt;
@@ -11,6 +11,9 @@ While this completely removes the limit on the number of areas you can create, t
 
 &lt;size=24&gt;Powered by Harmony&lt;/size&gt;
 
+
+&lt;size=24&gt;Version&lt;/size&gt;
+This is version v0.18.0.0
 
 </description>
 </ModMetaData>
