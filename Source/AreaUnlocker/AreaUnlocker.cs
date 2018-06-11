@@ -7,22 +7,10 @@
 using System;
 using System.Reflection;
 using Harmony;
-using RimWorld;
 using Verse;
 
 namespace AreaUnlocker
 {
-    [HarmonyPatch(typeof(AreaManager))]
-    [HarmonyPatch("CanMakeNewAllowed")]
-    public static class AreaUnlocker
-    {
-        static bool Prefix( ref bool __result )
-        {
-            __result = true;
-            return false;
-        }
-    }
-
     public class Bootstrap : Mod
     {
         public Bootstrap( ModContentPack content ) : base( content )
