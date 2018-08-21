@@ -1,12 +1,12 @@
 [![RimWorld Alpha undefined](https://img.shields.io/badge/RimWorld-Alpha%20undefined-brightgreen.svg)](http://rimworldgame.com/)
 
-Removes the (arbitrary) limit to the number of areas you can create. 
+Removes the (arbitrary) limit to the number of areas you can create, change area colours.
 
 # Notes
-While this completely removes the limit on the number of areas you can create, the UI is untouched - and designed for 5 areas per type. If you create too many areas, you may run into UI issues. This practical limit depends largely on your resolution. I have no plans to update these UI issues, as that would be a massive undertaking.
+While this completely removes the limit on the number of areas you can create, the area selection widget in other parts of the UI is untouched - and designed for 5 areas per type. If you create too many areas, you may run into issues. This practical limit depends largely on your resolution and UI size factor. I have no plans to update these UI issues, nor could I do so for all the mods that use areas.
 
 # Powered by Harmony
-![Powered by Harmony](https://camo.githubusercontent.com/074bf079275fa90809f51b74e9dd0deccc70328f/68747470733a2f2f7332342e706f7374696d672e6f72672f3538626c31727a33392f6c6f676f2e706e67)
+![Powered by Harmony](https://raw.githubusercontent.com/pardeike/Harmony/master/HarmonyLogo.png)
 
 # Think you found a bug? 
 Please read [this guide](http://steamcommunity.com/sharedfiles/filedetails/?id=725234314) before creating a bug report,
@@ -27,4 +27,4 @@ Show your appreciation by buying me a coffee (or contribute towards a nice singl
 [![Buy Me a Coffee](http://i.imgur.com/EjWiUwx.gif)](https://ko-fi.com/fluffymods)
 
 # Version
-This is version 1.4.52, for RimWorld 0.19.2003.
+This is version 1.5.54, for RimWorld 0.19.2003.
