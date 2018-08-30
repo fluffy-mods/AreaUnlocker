@@ -3,7 +3,7 @@
   <name>Area Unlocker</name>
   <author>Fluffy</author>
   <url>https://ludeon.com/forums/index.php?topic=16120.0</url>
-  <targetVersion>0.19.2003</targetVersion>
+  <targetVersion>0.19.2009</targetVersion>
   <description>Removes the (arbitrary) limit to the number of areas you can create, change area colours.
 
 &lt;size=24&gt;Notes&lt;/size&gt;
@@ -13,7 +13,7 @@ While this completely removes the limit on the number of areas you can create, t
 
 
 &lt;size=24&gt;Version&lt;/size&gt;
-This is version 1.5.54, for RimWorld 0.19.2003.
+This is version 1.6.56, for RimWorld 0.19.2009.
 
 </description>
 </ModMetaData>
