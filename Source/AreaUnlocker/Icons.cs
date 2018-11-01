@@ -6,7 +6,7 @@ namespace AreaUnlocker
     [StaticConstructorOnStartup]
     public static class Icons
     {
-        public static readonly Texture2D Rename, Palette, Invert, Delete;
+        public static readonly Texture2D Rename, Palette, Invert, Delete, Copy;
 
         static Icons()
         {
@@ -14,6 +14,7 @@ namespace AreaUnlocker
             Palette = ContentFinder<Texture2D>.Get( "UI/Icons/palette" );
             Invert = ContentFinder<Texture2D>.Get( "UI/Icons/invert" );
             Delete = ContentFinder<Texture2D>.Get( "UI/Buttons/Delete" );
+            Copy = ContentFinder<Texture2D>.Get( "UI/Buttons/Copy" );
         }
     }
 }

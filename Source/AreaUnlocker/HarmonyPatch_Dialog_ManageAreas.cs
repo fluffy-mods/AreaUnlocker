@@ -64,6 +64,21 @@ namespace AreaUnlocker
                 } ) );
         }
 
+        private static void Copy( Area_Allowed area )
+        {
+            // get a unique label
+            var label = "Fluffy.AreaUnlocker.CopiedAreaLabel".Translate( area.Label );
+            var i = 1;
+            while ( area.areaManager.GetLabeled( label ) != null )
+                label = "Fluffy.AreaUnlocker.CopiedAreaDuplicateLabel".Translate( area.Label, i++ );
+
+            // create the copy
+            area.areaManager.TryMakeNewAllowed( out var copy );
+            Traverse.Create( copy ).Field( "labelInt" ).SetValue( label );
+            foreach ( var cell in area.ActiveCells )
+                copy[cell] = true;
+        }
+
         public static void DoAreaRow(Rect rect, Area area)
         {
             // Adapted from Dialog_ManagerAreas.DoAreaRow()
@@ -81,9 +96,9 @@ namespace AreaUnlocker
             // note that in vanilla, the only mutable areas (those that can be edited by the player)
             // are all of type Area_Allowed, but this is not necessarily the case for modded areas.
             var area_allowed = area as Area_Allowed;
-            var colourable = area != null;
+            var mutable = area != null;
 
-            if ( colourable )
+            if ( mutable )
             {
                 if ( widgetRow.ButtonIcon( area.ColorTexture, "Fluffy.AreaUnlocker.ChangeColour".Translate(), GenUI.SubtleMouseoverColor ) )
                     ChangeColour( area_allowed );
@@ -93,16 +108,15 @@ namespace AreaUnlocker
 
             widgetRow.Gap( WidgetRow.DefaultGap );
 
-            widgetRow.Label( area.Label, rect.width - ( colourable ? 5 : 4 ) * ( WidgetRow.IconSize + WidgetRow.DefaultGap ) );
+            widgetRow.Label( area.Label, rect.width - ( mutable ? 6 : 4 ) * ( WidgetRow.IconSize + WidgetRow.DefaultGap ) );
             if ( widgetRow.ButtonIcon( Icons.Rename, "Rename".Translate(), GenUI.MouseoverColor) )
                 Find.WindowStack.Add(new Dialog_RenameArea(area));
-            if ( colourable )
-            {
-                if ( widgetRow.ButtonIcon( Icons.Palette, "Fluffy.AreaUnlocker.ChangeColour".Translate(), GenUI.MouseoverColor ) )
-                    ChangeColour( area_allowed );
-            }
+            if ( mutable && widgetRow.ButtonIcon( Icons.Palette, "Fluffy.AreaUnlocker.ChangeColour".Translate(), GenUI.MouseoverColor ) )
+                ChangeColour( area_allowed );
             if ( widgetRow.ButtonIcon( Icons.Invert, "InvertArea".Translate(), GenUI.MouseoverColor) )
                 area.Invert();
+            if ( mutable && widgetRow.ButtonIcon( Icons.Copy, "Fluffy.AreaUnlocker.CopyArea".Translate(), GenUI.MouseoverColor ) )
+                Copy( area_allowed );
             if ( widgetRow.ButtonIcon( Icons.Delete, "Delete".Translate(), GenUI.MouseoverColor ) )
                 area.Delete();
 
