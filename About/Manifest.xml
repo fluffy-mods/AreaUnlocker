@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-  <version>2.3.73</version>
-  <manifestUri>https://rawgit.com/FluffierThanThou/AreaUnlocker/master/About/Manifest.xml</manifestUri>
-  <downloadUri>https://github.com/FluffierThanThou/AreaUnlocker/releases/v2.3.73</downloadUri>
+  <version>2.4.84</version>
+  <manifestUri>https://cdn.jsdelivr.net/gh/FluffierThanThou/AreaUnlocker/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/FluffierThanThou/AreaUnlocker/releases/v2.4.84</downloadUri>
 </Manifest>
