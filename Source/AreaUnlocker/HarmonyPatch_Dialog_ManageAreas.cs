@@ -11,8 +11,7 @@ using Verse;
 
 namespace AreaUnlocker
 {
-    [HarmonyPatch(typeof(Dialog_ManageAreas))]
-    [HarmonyPatch("DoWindowContents")]
+    [HarmonyPatch(typeof(Dialog_ManageAreas), nameof(Dialog_ManageAreas.DoWindowContents))]
     public class HarmonyPatch_Dialog_ManageAreas
     {
         private static float height = 100f;
