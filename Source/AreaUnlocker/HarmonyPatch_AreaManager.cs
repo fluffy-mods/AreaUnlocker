@@ -1,7 +1,7 @@
 ﻿// HarmonyPatch_AreaManager.cs
 // Copyright Karel Kroeze, 2018-2018
 
-using Harmony;
+using HarmonyLib;
 using Verse;
 
 namespace AreaUnlocker

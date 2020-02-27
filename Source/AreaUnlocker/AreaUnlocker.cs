@@ -5,7 +5,7 @@
 // Created 2015-11-25 10:55
 
 using System.Reflection;
-using Harmony;
+using HarmonyLib;
 using Verse;
 
 namespace AreaUnlocker
@@ -14,7 +14,7 @@ namespace AreaUnlocker
     {
         public Bootstrap( ModContentPack content ) : base( content )
         {
-            var harmony = HarmonyInstance.Create( "fluffy.areaunlocker" );
+            var harmony = new Harmony( "fluffy.areaunlocker" );
             harmony.PatchAll( Assembly.GetExecutingAssembly() );
         }
     }
