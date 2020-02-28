@@ -1,4 +1,4 @@
-[![RimWorld Alpha undefined](https://img.shields.io/badge/RimWorld-Alpha%20undefined-brightgreen.svg)](http://rimworldgame.com/)
+[![RimWorld 1](https://img.shields.io/badge/RimWorld-1-brightgreen.svg)](http://rimworldgame.com/)
 
 Removes the (arbitrary) limit to the number of areas you can create, change area colours.
 
