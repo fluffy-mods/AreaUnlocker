@@ -98,7 +98,7 @@ namespace AreaUnlocker
 
             // create the copy
             area.areaManager.TryMakeNewAllowed( out var copy );
-            Traverse.Create( copy ).Field( "labelInt" ).SetValue( label );
+            Traverse.Create( copy ).Field( "labelInt" ).SetValue( label.Resolve() );
             foreach ( var cell in area.ActiveCells )
                 copy[cell] = true;
         }
