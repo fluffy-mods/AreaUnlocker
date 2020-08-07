@@ -1,4 +1,4 @@
-[![RimWorld 1.1](https://img.shields.io/badge/RimWorld-1.1-brightgreen.svg)](http://rimworldgame.com/)
+[![RimWorld 1.2](https://img.shields.io/badge/RimWorld-1.2-brightgreen.svg)](http://rimworldgame.com/)
 
 Removes the (arbitrary) limit to the number of areas you can create, change area colours.
 
@@ -57,4 +57,4 @@ Become a supporter and show your appreciation by buying me a coffee (or contribu
   
   
 ![Version](https://banners.karel-kroeze.nl/title/Version.png)
-This is version 3.13.106, for RimWorld 1.1.2654.
+This is version 3.14.109, for RimWorld 1.2.2719.
