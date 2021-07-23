@@ -1,0 +1,41 @@
+{
+    "name": "Area Unlocker",
+    "sourceDir": ".",
+    "targetDir": "AreaUnlocker",
+    "url": "https://github.com/fluffy-mods/AreaUnlocker",
+    "version": {
+        "major": 4,
+        "minor": 0,
+        "build": 139
+    },
+    "author": {
+        "name": "Fluffy",
+        "url": "https://github.com/fluffy-mods/",
+        "email": "fluffy.l2032@gmail.com"
+    },
+    "git": {
+        "owner": "fluffy-mods",
+        "repo": "AreaUnlocker",
+        "url": "https://github.com/fluffy-mods/AreaUnlocker"
+    },
+    "changelog": [
+        {
+            "date": "2021-06-03T05:54:19.000Z",
+            "message": "Add Simplified Chinese translation",
+            "author": {
+                "name": "Juijote",
+                "email": "22154581+Juijote@users.noreply.github.com"
+            },
+            "hash": "af7aa0f3c8c6df7140fea0bd419c0c7281a34201"
+        },
+        {
+            "date": "2020-09-16T15:40:51.000Z",
+            "message": "Added Russian translation",
+            "author": {
+                "name": "uncleshvya",
+                "email": "46885477+uncleshvya@users.noreply.github.com"
+            },
+            "hash": "e4aa5627978894ac3a06aaa7ad149a8346ef65bf"
+        }
+    ]
+}
