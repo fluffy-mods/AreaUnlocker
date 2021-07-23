@@ -5,7 +5,7 @@
     "url": "https://github.com/fluffy-mods/AreaUnlocker",
     "version": {
         "major": 4,
-        "minor": 0,
+        "minor": 1,
         "build": 139
     },
     "author": {
@@ -20,6 +20,24 @@
     },
     "changelog": [
         {
+            "date": "2021-07-23T10:18:28.000Z",
+            "message": "Merge branch '1.3' of https://github.com/fluffy-mods/AreaUnlocker into 1.3",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "d6b5610e12156138865620faf9e87c2a1865b094"
+        },
+        {
+            "date": "2021-07-23T10:18:01.000Z",
+            "message": "red squiglies, nuget refs",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "3fb426848e6f233aad836d16e02c8bce01e65768"
+        },
+        {
             "date": "2021-06-03T05:54:19.000Z",
             "message": "Add Simplified Chinese translation",
             "author": {
@@ -27,6 +45,15 @@
                 "email": "22154581+Juijote@users.noreply.github.com"
             },
             "hash": "af7aa0f3c8c6df7140fea0bd419c0c7281a34201"
+        },
+        {
+            "date": "2021-06-03T05:54:19.000Z",
+            "message": "Create AreaUnlocker.xml",
+            "author": {
+                "name": "Juijote",
+                "email": "22154581+Juijote@users.noreply.github.com"
+            },
+            "hash": "841426c6e7fbf20567e5a9836b74624530c64615"
         },
         {
             "date": "2020-09-16T15:40:51.000Z",
