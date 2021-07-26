@@ -5,7 +5,7 @@
     "url": "https://github.com/fluffy-mods/AreaUnlocker",
     "version": {
         "major": 4,
-        "minor": 1,
+        "minor": 2,
         "build": 142
     },
     "author": {
@@ -19,6 +19,15 @@
         "url": "https://github.com/fluffy-mods/AreaUnlocker"
     },
     "changelog": [
+        {
+            "date": "2021-07-26T07:20:12.000Z",
+            "message": "update harmony, fix descriptions",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "475c0e6ebed85106aa2897d6fd2920e021c6713b"
+        },
         {
             "date": "2021-07-23T10:18:28.000Z",
             "message": "Merge branch '1.3' of https://github.com/fluffy-mods/AreaUnlocker into 1.3",
