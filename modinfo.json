@@ -5,7 +5,7 @@
     "url": "https://github.com/fluffy-mods/AreaUnlocker",
     "version": {
         "major": 4,
-        "minor": 2,
+        "minor": 4,
         "build": 142
     },
     "author": {
@@ -19,6 +19,15 @@
         "url": "https://github.com/fluffy-mods/AreaUnlocker"
     },
     "changelog": [
+        {
+            "date": "2021-07-26T07:22:49.000Z",
+            "message": "release v4.2.142",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "63731853a511a9836ddc4ce9cc3b4f2eab6b3d33"
+        },
         {
             "date": "2021-07-26T07:20:12.000Z",
             "message": "update harmony, fix descriptions",

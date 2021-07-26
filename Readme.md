@@ -1,12 +1,8 @@
 Removes the (arbitrary) limit to the number of areas you can create, change area colours.
 
-[img]https://banners.karel-kroeze.nl/title/Notes.png[/img]
+[img]https://banners.karel-kroeze.nl/title/Notes.png[/img]While this completely removes the limit on the number of areas you can create, the area selection widget in other parts of the UI is untouched - and designed for 5 areas per type. If you create too many areas, you may run into issues. This practical limit depends largely on your resolution and UI size factor. I have no plans to update these UI issues, nor could I do so for all the mods that use areas.
 
-While this completely removes the limit on the number of areas you can create, the area selection widget in other parts of the UI is untouched - and designed for 5 areas per type. If you create too many areas, you may run into issues. This practical limit depends largely on your resolution and UI size factor. I have no plans to update these UI issues, nor could I do so for all the mods that use areas.
-
-[img]https://banners.karel-kroeze.nl/title/Powered%20by%20Harmony.png[/img]
-
-[img]https://raw.githubusercontent.com/pardeike/Harmony/master/HarmonyLogo.png[/img]
+[img]https://banners.karel-kroeze.nl/title/Powered%20by%20Harmony.png[/img][img]https://raw.githubusercontent.com/pardeike/Harmony/master/HarmonyLogo.png[/img]
 
 [img]https://banners.karel-kroeze.nl/title/Contributors.png[/img]
 
