@@ -20,6 +20,15 @@
     },
     "changelog": [
         {
+            "date": "2021-07-26T07:34:26.000Z",
+            "message": "release v4.4.142",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "9a5b34d13cf7a1dff0bdda09581ee76841a820cf"
+        },
+        {
             "date": "2021-07-26T07:22:49.000Z",
             "message": "release v4.2.142",
             "author": {
