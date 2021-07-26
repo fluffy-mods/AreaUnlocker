@@ -5,7 +5,7 @@
     "url": "https://github.com/fluffy-mods/AreaUnlocker",
     "version": {
         "major": 4,
-        "minor": 4,
+        "minor": 5,
         "build": 142
     },
     "author": {
@@ -19,6 +19,15 @@
         "url": "https://github.com/fluffy-mods/AreaUnlocker"
     },
     "changelog": [
+        {
+            "date": "2021-07-26T20:24:59.000Z",
+            "message": "update preview image",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "25ace156211597a298d69d968360e92859293708"
+        },
         {
             "date": "2021-07-26T07:34:26.000Z",
             "message": "release v4.4.142",
@@ -117,5 +126,21 @@
             "license": "BY-NC",
             "url": "https://www.freepik.com/"
         }
-    ]
+    ],
+    "contributors": {
+        "uncleshvya": [
+            {
+                "hash": "e4aa562",
+                "author": "uncleshvya",
+                "description": "Added Russian translation"
+            }
+        ],
+        "Juijote": [
+            {
+                "hash": "af7aa0f",
+                "author": "Juijote",
+                "description": "Add Simplified Chinese translation"
+            }
+        ]
+    }
 }
