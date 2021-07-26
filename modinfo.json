@@ -6,7 +6,7 @@
     "version": {
         "major": 4,
         "minor": 1,
-        "build": 139
+        "build": 142
     },
     "author": {
         "name": "Fluffy",
@@ -63,6 +63,24 @@
                 "email": "46885477+uncleshvya@users.noreply.github.com"
             },
             "hash": "e4aa5627978894ac3a06aaa7ad149a8346ef65bf"
+        }
+    ],
+    "contributions": [
+        {
+            "hash": "e4aa5627978894ac3a06aaa7ad149a8346ef65bf",
+            "author": "uncleshvya",
+            "description": "Added Russian translation"
+        },
+        {
+            "hash": "af7aa0f3c8c6df7140fea0bd419c0c7281a34201",
+            "author": "Juijote",
+            "description": "Add Simplified Chinese translation"
+        },
+        {
+            "hash": "841426c6e7fbf20567e5a9836b74624530c64615",
+            "author": "Juijote",
+            "description": "Create AreaUnlocker.xml",
+            "suppressed": true
         }
     ]
 }
