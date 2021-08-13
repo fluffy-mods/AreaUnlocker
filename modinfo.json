@@ -6,7 +6,7 @@
     "version": {
         "major": 4,
         "minor": 5,
-        "build": 142
+        "build": 148
     },
     "author": {
         "name": "Fluffy",
@@ -142,5 +142,14 @@
                 "description": "Add Simplified Chinese translation"
             }
         ]
-    }
+    },
+    "dependencies": [
+        {
+            "type": "required",
+            "id": "brrainz.harmony",
+            "name": "Harmony",
+            "steamId": 2009463077,
+            "download": "https://github.com/pardeike/HarmonyRimWorld/releases/latest"
+        }
+    ]
 }

@@ -7,10 +7,8 @@ While this completely removes the limit on the number of areas you can create, t
 ![Powered by Harmony](https://raw.githubusercontent.com/pardeike/Harmony/master/HarmonyLogo.png)
 
 ![Contributors](https://banners.karel-kroeze.nl/title/Contributors.png)  
-- uncleshvya
-    - [Added Russian translation](https://github.com/fluffy-mods/AreaUnlocker/commit/e4aa562)
-- Juijote
-    - [Add Simplified Chinese translation](https://github.com/fluffy-mods/AreaUnlocker/commit/af7aa0f)
+uncleshvya: [Added Russian translation](https://github.com/fluffy-mods/AreaUnlocker/commit/e4aa562)
+Juijote: [Add Simplified Chinese translation](https://github.com/fluffy-mods/AreaUnlocker/commit/af7aa0f)
 
 
 ![Think you found a bug?](https://banners.karel-kroeze.nl/title/Think%20you%20found%20a%20bug%3F.png)  

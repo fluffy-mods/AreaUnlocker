@@ -1,4 +1,4 @@
-﻿// AreaUnlocker/SpecialInjector_AreaUnlocker.cs
+// AreaUnlocker/SpecialInjector_AreaUnlocker.cs
 // 
 // Copyright Karel Kroeze, 2015.
 // 
@@ -8,14 +8,11 @@ using System.Reflection;
 using HarmonyLib;
 using Verse;
 
-namespace AreaUnlocker
-{
-    public class Bootstrap : Mod
-    {
-        public Bootstrap( ModContentPack content ) : base( content )
-        {
-            var harmony = new Harmony( "fluffy.areaunlocker" );
-            harmony.PatchAll( Assembly.GetExecutingAssembly() );
+namespace AreaUnlocker {
+    public class Bootstrap: Mod {
+        public Bootstrap(ModContentPack content) : base(content) {
+            Harmony harmony = new Harmony( "fluffy.areaunlocker" );
+            harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
     }
 }
