@@ -5,7 +5,7 @@
     "url": "https://github.com/fluffy-mods/AreaUnlocker",
     "version": {
         "major": 4,
-        "minor": 5,
+        "minor": 6,
         "build": 148
     },
     "author": {
@@ -19,6 +19,15 @@
         "url": "https://github.com/fluffy-mods/AreaUnlocker"
     },
     "changelog": [
+        {
+            "date": "2021-08-13T08:26:14.000Z",
+            "message": "update references, modernize project",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "38eb2f4d5e08ca72d8f0532e6b1524a432d037b6"
+        },
         {
             "date": "2021-07-26T20:24:59.000Z",
             "message": "update preview image",
