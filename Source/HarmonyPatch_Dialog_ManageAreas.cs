@@ -25,13 +25,16 @@ namespace AreaUnlocker {
             List<Area> areas = allAreas.Where(a => Visible( a ) ).ToList();
 
             Listing_Standard areaList = new Listing_Standard {ColumnWidth = viewRect.width};
+
+            // TODO: the interface for NewGroup changed, and simply using the viewRect for the new rect
+            // argument doesn't seem to work. No errors though, so for now it's just not draggable.
             int reorderableGroup = ReorderableWidget.NewGroup( ( from, to ) =>
             {
                 from = Index( from, ___map );
                 to = Index( to, ___map );
                 ___map.areaManager.AllAreas.Insert( to, ___map.areaManager.AllAreas[from] );
                 ___map.areaManager.AllAreas.RemoveAt( from >= to ? from + 1 : from );
-            }, ReorderableDirection.Vertical, 6f );
+            }, ReorderableDirection.Vertical, viewRect );
 
             Widgets.BeginScrollView(outRect, ref scrollposition, viewRect);
             areaList.Begin(viewRect);
