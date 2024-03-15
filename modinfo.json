@@ -4,8 +4,8 @@
     "targetDir": "AreaUnlocker",
     "url": "https://github.com/fluffy-mods/AreaUnlocker",
     "version": {
-        "major": 4,
-        "minor": 6,
+        "major": 5,
+        "minor": 0,
         "build": 152
     },
     "author": {
@@ -19,6 +19,15 @@
         "url": "https://github.com/fluffy-mods/AreaUnlocker"
     },
     "changelog": [
+        {
+            "date": "2024-03-15T16:46:37.000Z",
+            "message": "update colourpicker to 1.5 refs",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "01517f31c1f0609fb9617123e540c4615376cd48"
+        },
         {
             "date": "2024-03-15T16:40:24.000Z",
             "message": "recovering from file system madness, initial 1.5 update",
