@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaUnlocker", "AreaUnlocker.csproj", "{04E1AE9A-F70A-4044-8805-C60C250B4A02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColourPicker", "..\..\..\..\TOOLS\ColourPicker\ColourPicker.csproj", "{AEBDCE54-F011-4684-BC9C-A3767E59B58B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColourPicker", "..\..\..\TOOLS\ColourPicker\ColourPicker.csproj", "{AEBDCE54-F011-4684-BC9C-A3767E59B58B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
