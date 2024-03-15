@@ -6,7 +6,7 @@
     "version": {
         "major": 5,
         "minor": 0,
-        "build": 153
+        "build": 154
     },
     "author": {
         "name": "Fluffy",
@@ -19,6 +19,15 @@
         "url": "https://github.com/fluffy-mods/AreaUnlocker"
     },
     "changelog": [
+        {
+            "date": "2024-03-15T17:35:53.000Z",
+            "message": "add reordering to known issues",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "197975800bcc89e9000e230b6b272295f22a049b"
+        },
         {
             "date": "2024-03-15T16:50:03.000Z",
             "message": "release v5.0.152",
