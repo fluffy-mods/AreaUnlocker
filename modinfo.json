@@ -6,7 +6,7 @@
     "version": {
         "major": 5,
         "minor": 0,
-        "build": 152
+        "build": 153
     },
     "author": {
         "name": "Fluffy",
@@ -19,6 +19,15 @@
         "url": "https://github.com/fluffy-mods/AreaUnlocker"
     },
     "changelog": [
+        {
+            "date": "2024-03-15T16:50:03.000Z",
+            "message": "release v5.0.152",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "57a55f218cc22d98eba2cd860dbb6c7a3d0f1a12"
+        },
         {
             "date": "2024-03-15T16:46:37.000Z",
             "message": "update colourpicker to 1.5 refs",
@@ -178,5 +187,6 @@
             "steamId": 2009463077,
             "download": "https://github.com/pardeike/HarmonyRimWorld/releases/latest"
         }
-    ]
+    ],
+    "publishedFileId": "725153576"
 }

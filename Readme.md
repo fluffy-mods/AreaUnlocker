@@ -1,11 +1,12 @@
 Removes the (arbitrary) limit to the number of areas you can create, change area colours.
 
 ![Notes](https://headers.karel-kroeze.nl/title/Notes.png)  
-
 While this completely removes the limit on the number of areas you can create, the area selection widget in other parts of the UI is untouched - and designed for 5 areas per type. If you create too many areas, you may run into issues. This practical limit depends largely on your resolution and UI size factor. I have no plans to update these UI issues, nor could I do so for all the mods that use areas.
 
-![Powered by Harmony](https://headers.karel-kroeze.nl/title/Powered%20by%20Harmony.png)  
+![Known Issues](https://headers.karel-kroeze.nl/title/Known%20Issues.png)  
+- reordering areas is currently broken (2024-03-15, 1.5)
 
+![Powered by Harmony](https://headers.karel-kroeze.nl/title/Powered%20by%20Harmony.png)  
 ![Powered by Harmony](https://raw.githubusercontent.com/pardeike/Harmony/master/HarmonyLogo.png)
 
 ![Think you found a bug?](https://headers.karel-kroeze.nl/title/Think%20you%20found%20a%20bug%3F.png)  
