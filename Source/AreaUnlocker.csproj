@@ -9,6 +9,9 @@
     <ItemGroup>
         <PackageReference Include="Krafs.Rimworld.Ref" Version="1.5.4034-beta" />
         <PackageReference Include="Lib.Harmony" Version="2.3.1.1" ExcludeAssets="runtime" />
-        <ProjectReference Include="..\..\..\TOOLS\ColourPicker\ColourPicker.csproj" />
+        <Reference Include="ColourPicker">
+            <HintPath>..\Assemblies\0ColourPicker.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
     </ItemGroup>
 </Project>

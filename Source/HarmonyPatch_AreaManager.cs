@@ -12,4 +12,11 @@ namespace AreaUnlocker {
             return false;
         }
     }
+
+    [HarmonyPatch(typeof(AreaManager), "SortAreas")]
+    public static class AreaManager_Disable_SortAreas {
+        private static bool Prefix() {
+            return false;
+        }
+    }
 }

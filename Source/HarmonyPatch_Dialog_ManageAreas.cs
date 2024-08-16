@@ -15,6 +15,8 @@ namespace AreaUnlocker {
         private static float height = 100f;
         private static Vector2 scrollposition = Vector2.zero;
 
+        private static int reorderableGroup = -1;
+
         [System.Obsolete]
         public static bool Prefix(Rect inRect, Map ___map) {
             Rect outRect = new Rect( inRect.xMin, inRect.yMin, inRect.width, inRect.height - 100 );
@@ -26,15 +28,15 @@ namespace AreaUnlocker {
 
             Listing_Standard areaList = new Listing_Standard {ColumnWidth = viewRect.width};
 
-            // TODO: the interface for NewGroup changed, and simply using the viewRect for the new rect
-            // argument doesn't seem to work. No errors though, so for now it's just not draggable.
-            int reorderableGroup = ReorderableWidget.NewGroup( ( from, to ) =>
-            {
-                from = Index( from, ___map );
-                to = Index( to, ___map );
-                ___map.areaManager.AllAreas.Insert( to, ___map.areaManager.AllAreas[from] );
-                ___map.areaManager.AllAreas.RemoveAt( from >= to ? from + 1 : from );
-            }, ReorderableDirection.Vertical, viewRect );
+            if (Event.current.type == EventType.Repaint) {
+                reorderableGroup = ReorderableWidget.NewGroup( ( from, to ) =>
+                {
+                    from = Index( from, ___map );
+                    to = Index( to, ___map );
+                    ___map.areaManager.AllAreas.Insert( to, ___map.areaManager.AllAreas[from] );
+                    ___map.areaManager.AllAreas.RemoveAt( from >= to ? from + 1 : from );
+                }, ReorderableDirection.Vertical, viewRect );
+            }
 
             Widgets.BeginScrollView(outRect, ref scrollposition, viewRect);
             areaList.Begin(viewRect);
